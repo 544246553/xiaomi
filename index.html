@@ -7,6 +7,8 @@
 	<link rel="stylesheet" type="text/css" href="css/base.css">
 	<link rel="stylesheet" href="css/index.css">
 	<link rel="stylesheet" href="css/iconfont.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+
 </head>
 <body>
 	<!-- 头部开始 -->
@@ -55,17 +57,143 @@
 			<span class="nav-wenzi">社区</span>
 		</div>
 
-		<div class="nav-right"></div>
+		<div class="nav-right">
+			<div class="nav-search">
+				<input type="text" placeholder="请输入搜索内容">
+			</div>
+
+			<div class="nav-btn">
+				<input type="submit" class="iconfont  " value="&#xe64f;">
+			</div>
+		</div>
 	</div>
 	<!-- 导航结束 -->
 	
+	<!-- banner开始 -->
+	
+	<div class="banner swiper-container" id="swiper1">
+		
+		<div class="banner-img swiper-wrapper">
+			<div class=" swiper-slide">
+				<img src="img/b1.jpg" alt="">
+			</div>
+			<div class=" swiper-slide">
+				<img src="img/b2.jpg" alt="">
+			</div>
+			<div class=" swiper-slide">
+				<img src="img/b3.jpg" alt="">
+			</div>
+			<div class=" swiper-slide">
+				<img src="img/b4.jpg" alt="">
+			</div>
+			<div class=" swiper-slide">
+				<img src="img/b5.jpg" alt="">
+			</div>
+			<div class=" swiper-slide">
+				<img src="img/b3.jpg" alt="">
+			</div>
+		</div>
+		
+		<div class="banner-left swiper-button-prev iconfont icon-zuoyoujiantou">
+			<!-- <a href="">
+				<span class=" banner-left"></span>
+			</a> -->
+		</div>
+		<div class="banner-right swiper-button-next iconfont icon-zuoyoujiantou2">
+			<!-- <a href="">
+				<span class=" banner-right"></span>
+			</a> -->
+		</div>
+		
+		<div class="banner-dian swiper-pagination ">
+			
+		</div>
+
+		<ul class="banner-nav">
+			<li>
+				<a href="">
+					<span>手机 电话卡</span>
+					<span class="banner-nav-jiantou">&gt</span>
+				</a>
+			</li>
+
+			<li>
+				<a href="">
+					<span>笔记本</span>
+					<span class="banner-nav-jiantou">&gt</span>
+				</a>
+			</li>
+
+			<li>
+				<a href="">
+					<span>电视 盒子</span>
+					<span class="banner-nav-jiantou">&gt</span>
+				</a>
+			</li>
+
+			<li>
+				<a href="">
+					<span>路由器 智能硬件</span>
+					<span class="banner-nav-jiantou">&gt</span>
+				</a>
+			</li>
+
+			<li>
+				<a href="">
+					<span>移动电源 电池 插线板</span>
+					<span class="banner-nav-jiantou">&gt</span>
+				</a>
+			</li>
+
+			<li>
+				<a href="">
+					<span>耳机 音箱</span>
+					<span class="banner-nav-jiantou">&gt</span>
+				</a>
+			</li>
+
+			<li>
+				<a href="">
+					<span>保护套 贴膜</span>
+					<span class="banner-nav-jiantou">&gt</span>
+				</a>
+			</li>
+
+			<li>
+				<a href="">
+					<span>线材 支架 存储卡</span>
+					<span class="banner-nav-jiantou">&gt</span>
+				</a>
+			</li>
+
+			<li>
+				<a href="">
+					<span>箱包 服饰 鞋 眼镜</span>
+					<span class="banner-nav-jiantou">&gt</span>
+				</a>
+			</li>
+
+			<li>
+				<a href="">
+					<span>米兔 生活周边</span>
+					<span class="banner-nav-jiantou">&gt</span>
+				</a>
+			</li>
+
+			
+		</ul>
+
+	</div>
+
+	<!-- banner结束 -->
 	<!-- banner下列表开始 -->
 
 	<ul class="bannerList">
 		
 		<li>
+
 			<div class="banner-icon">
-				<a href="https://www.mi.com/compare">
+				<a href="https://www.mi.com/compare" >
 					<span class="iconfont icon-xuangoushouji banner-shouji"></span>
 					<span class="banner-shouji1">选购手机</span>
 				</a>
@@ -195,31 +323,55 @@
 				</div>
 
 				<ul class="jiadian-right">
+
+
 					<li class="jiadian-item">
+						
 						<a href="" class="jiadian-item1"><img src="img/jiadian1.jpg" alt=""></a>
 						<a href="" class="jiadian-item2">
 							小米电视4 55英寸
 						</a>
 						<p class="jiadian-item3">4.9mm 极超薄高端旗舰电视</p>
 						<span class="jiadian-item4">7777元</span>
+						<div class="jiadian-item-tan">
+							<p class="jiadian-huifu jiadian-huifu2 ">挺好的,很薄啊.来作诗一首</p>
+							<p class="jiadian-huifu jiadian-huifu1">来自 我是刷单的 评价</p>
+
+						</div>
 
 					</li>
 					<li class="jiadian-item">
+						<div class="jiadian-dazhe">享9.4折</div>
+											
+
 						<a href="" class="jiadian-item1"><img src="img/jiadian2.png" alt=""></a>
 						<a href="" class="jiadian-item2">
 							小米电视4 55英寸
 						</a>
 						<p class="jiadian-item3">4.9mm 极超薄高端旗舰电视</p>
 						<span class="jiadian-item4">7777元</span>
+						<div class="jiadian-item-tan">
+							<p class="jiadian-huifu jiadian-huifu2 ">挺好的,很薄啊.来作诗一首</p>
+							<p class="jiadian-huifu jiadian-huifu1">来自 我是刷单的 评价</p>
+
+						</div>
 
 					</li>
 					<li class="jiadian-item">
+						<div class="jiadian-dazhe">享9折</div>
+											
+
 						<a href="" class="jiadian-item1"><img src="img/jiadian3.jpg" alt=""></a>
 						<a href="" class="jiadian-item2">
 							小米电视4 55英寸
 						</a>
 						<p class="jiadian-item3">4.9mm 极超薄高端旗舰电视</p>
 						<span class="jiadian-item4">7777元</span>
+						<div class="jiadian-item-tan">
+							<p class="jiadian-huifu jiadian-huifu2 ">挺好的,很薄啊.来作诗一首</p>
+							<p class="jiadian-huifu jiadian-huifu1">来自 我是刷单的 评价</p>
+
+						</div>
 
 					</li>
 					<li class="jiadian-item">
@@ -229,6 +381,11 @@
 						</a>
 						<p class="jiadian-item3">4.9mm 极超薄高端旗舰电视</p>
 						<span class="jiadian-item4">7777元</span>
+						<div class="jiadian-item-tan">
+							<p class="jiadian-huifu jiadian-huifu2 ">挺好的,很薄啊.来作诗一首</p>
+							<p class="jiadian-huifu jiadian-huifu1">来自 我是刷单的 评价</p>
+
+						</div>
 
 					</li>
 					<li class="jiadian-item">
@@ -238,6 +395,11 @@
 						</a>
 						<p class="jiadian-item3">4.9mm 极超薄高端旗舰电视</p>
 						<span class="jiadian-item4">7777元</span>
+						<div class="jiadian-item-tan">
+							<p class="jiadian-huifu jiadian-huifu2 ">挺好的,很薄啊.来作诗一首</p>
+							<p class="jiadian-huifu jiadian-huifu1">来自 我是刷单的 评价</p>
+
+						</div>
 
 					</li>
 					<li class="jiadian-item">
@@ -247,6 +409,11 @@
 						</a>
 						<p class="jiadian-item3">4.9mm 极超薄高端旗舰电视</p>
 						<span class="jiadian-item4">7777元</span>
+						<div class="jiadian-item-tan">
+							<p class="jiadian-huifu jiadian-huifu2 ">挺好的,很薄啊.来作诗一首</p>
+							<p class="jiadian-huifu jiadian-huifu1">来自 我是刷单的 评价</p>
+
+						</div>
 
 					</li>
 					<li class="jiadian-item">
@@ -256,6 +423,11 @@
 						</a>
 						<p class="jiadian-item3">4.9mm 极超薄高端旗舰电视</p>
 						<span class="jiadian-item4">7777元</span>
+						<div class="jiadian-item-tan">
+							<p class="jiadian-huifu jiadian-huifu2 ">挺好的,很薄啊.来作诗一首</p>
+							<p class="jiadian-huifu jiadian-huifu1">来自 我是刷单的 评价</p>
+
+						</div>
 
 					</li>
 					
@@ -316,6 +488,11 @@
 					</a>
 					<p class="jiadian-item3">4.9mm 极超薄高端旗舰电视</p>
 					<span class="jiadian-item4">7777元</span>
+					<div class="jiadian-item-tan">
+							<p class="jiadian-huifu jiadian-huifu2 ">挺好的,很薄啊.来作诗一首</p>
+							<p class="jiadian-huifu jiadian-huifu1">来自 我是刷单的 评价</p>
+
+						</div>
 
 				</li>
 				<li class="jiadian-item">
@@ -325,6 +502,11 @@
 					</a>
 					<p class="jiadian-item3">4.9mm 极超薄高端旗舰电视</p>
 					<span class="jiadian-item4">7777元</span>
+					<div class="jiadian-item-tan">
+							<p class="jiadian-huifu jiadian-huifu2 ">挺好的,很薄啊.来作诗一首</p>
+							<p class="jiadian-huifu jiadian-huifu1">来自 我是刷单的 评价</p>
+
+						</div>
 
 				</li>
 
@@ -335,6 +517,11 @@
 					</a>
 					<p class="jiadian-item3">4.9mm 极超薄高端旗舰电视</p>
 					<span class="jiadian-item4">7777元</span>
+					<div class="jiadian-item-tan">
+							<p class="jiadian-huifu jiadian-huifu2 ">挺好的,很薄啊.来作诗一首</p>
+							<p class="jiadian-huifu jiadian-huifu1">来自 我是刷单的 评价</p>
+
+						</div>
 
 				</li>
 				<li class="jiadian-item">
@@ -344,6 +531,11 @@
 					</a>
 					<p class="jiadian-item3">4.9mm 极超薄高端旗舰电视</p>
 					<span class="jiadian-item4">7777元</span>
+					<div class="jiadian-item-tan">
+							<p class="jiadian-huifu jiadian-huifu2 ">挺好的,很薄啊.来作诗一首</p>
+							<p class="jiadian-huifu jiadian-huifu1">来自 我是刷单的 评价</p>
+
+						</div>
 
 				</li>
 				<li class="jiadian-item">
@@ -356,15 +548,28 @@
 					</a>
 					<p class="jiadian-item3">4.9mm 极超薄高端旗舰电视</p>
 					<span class="jiadian-item4">7777元</span>
+					<div class="jiadian-item-tan">
+							<p class="jiadian-huifu jiadian-huifu2 ">挺好的,很薄啊.来作诗一首</p>
+							<p class="jiadian-huifu jiadian-huifu1">来自 我是刷单的 评价</p>
+
+						</div>
 
 				</li>
 				<li class="jiadian-item">
+					<div class="jiadian-dazhe1">包邮</div>
+											
+
 					<a href="" class="jiadian-item1"><img src="img/zhineng6.jpg" alt=""></a>
 					<a href="" class="jiadian-item2">
 						小米电视4 55英寸
 					</a>
 					<p class="jiadian-item3">4.9mm 极超薄高端旗舰电视</p>
 					<span class="jiadian-item4">7777元</span>
+					<div class="jiadian-item-tan">
+							<p class="jiadian-huifu jiadian-huifu2 ">挺好的,很薄啊.来作诗一首</p>
+							<p class="jiadian-huifu jiadian-huifu1">来自 我是刷单的 评价</p>
+
+						</div>
 
 				</li>
 				<li class="jiadian-item">
@@ -374,6 +579,11 @@
 					</a>
 					<p class="jiadian-item3">4.9mm 极超薄高端旗舰电视</p>
 					<span class="jiadian-item4">7777元</span>
+					<div class="jiadian-item-tan">
+							<p class="jiadian-huifu jiadian-huifu2 ">挺好的,很薄啊.来作诗一首</p>
+							<p class="jiadian-huifu jiadian-huifu1">来自 我是刷单的 评价</p>
+
+						</div>
 
 				</li>
 				
@@ -431,15 +641,27 @@
 					</a>
 					<p class="jiadian-item3">4.9mm 极超薄高端旗舰电视</p>
 					<span class="jiadian-item4">7777元</span>
+					<div class="jiadian-item-tan">
+							<p class="jiadian-huifu jiadian-huifu2 ">挺好的,很薄啊.来作诗一首</p>
+							<p class="jiadian-huifu jiadian-huifu1">来自 我是刷单的 评价</p>
+
+						</div>
 
 				</li>
 				<li class="jiadian-item">
+					<div class="jiadian-dazhe2">新品</div>
+						
 					<a href="" class="jiadian-item1"><img src="img/dapei3.jpg" alt=""></a>
 					<a href="" class="jiadian-item2">
 						小米电视4 55英寸
 					</a>
 					<p class="jiadian-item3">4.9mm 极超薄高端旗舰电视</p>
 					<span class="jiadian-item4">7777元</span>
+					<div class="jiadian-item-tan">
+							<p class="jiadian-huifu jiadian-huifu2 ">挺好的,很薄啊.来作诗一首</p>
+							<p class="jiadian-huifu jiadian-huifu1">来自 我是刷单的 评价</p>
+
+						</div>
 
 				</li>
 
@@ -450,15 +672,27 @@
 					</a>
 					<p class="jiadian-item3">4.9mm 极超薄高端旗舰电视</p>
 					<span class="jiadian-item4">7777元</span>
+					<div class="jiadian-item-tan">
+							<p class="jiadian-huifu jiadian-huifu2 ">挺好的,很薄啊.来作诗一首</p>
+							<p class="jiadian-huifu jiadian-huifu1">来自 我是刷单的 评价</p>
+
+						</div>
 
 				</li>
 				<li class="jiadian-item">
+					<div class="jiadian-dazhe3">享9折</div>
+						
 					<a href="" class="jiadian-item1"><img src="img/dapei5.jpg" alt=""></a>
 					<a href="" class="jiadian-item2">
 						小米电视4 55英寸
 					</a>
 					<p class="jiadian-item3">4.9mm 极超薄高端旗舰电视</p>
 					<span class="jiadian-item4">7777元</span>
+					<div class="jiadian-item-tan">
+							<p class="jiadian-huifu jiadian-huifu2 ">挺好的,很薄啊.来作诗一首</p>
+							<p class="jiadian-huifu jiadian-huifu1">来自 我是刷单的 评价</p>
+
+						</div>
 
 				</li>
 				<li class="jiadian-item">
@@ -471,6 +705,11 @@
 					</a>
 					<p class="jiadian-item3">4.9mm 极超薄高端旗舰电视</p>
 					<span class="jiadian-item4">7777元</span>
+					<div class="jiadian-item-tan">
+							<p class="jiadian-huifu jiadian-huifu2 ">挺好的,很薄啊.来作诗一首</p>
+							<p class="jiadian-huifu jiadian-huifu1">来自 我是刷单的 评价</p>
+
+						</div>
 
 				</li>
 				<li class="jiadian-item">
@@ -480,6 +719,11 @@
 					</a>
 					<p class="jiadian-item3">4.9mm 极超薄高端旗舰电视</p>
 					<span class="jiadian-item4">7777元</span>
+					<div class="jiadian-item-tan">
+							<p class="jiadian-huifu jiadian-huifu2 ">挺好的,很薄啊.来作诗一首</p>
+							<p class="jiadian-huifu jiadian-huifu1">来自 我是刷单的 评价</p>
+
+						</div>
 
 				</li>
 				<li class="jiadian-item">
@@ -489,6 +733,11 @@
 					</a>
 					<p class="jiadian-item3">4.9mm 极超薄高端旗舰电视</p>
 					<span class="jiadian-item4">7777元</span>
+					<div class="jiadian-item-tan">
+							<p class="jiadian-huifu jiadian-huifu2 ">挺好的,很薄啊.来作诗一首</p>
+							<p class="jiadian-huifu jiadian-huifu1">来自 我是刷单的 评价</p>
+
+						</div>
 
 				</li>
 				
@@ -547,6 +796,11 @@
 					</a>
 					<p class="jiadian-item3">4.9mm 极超薄高端旗舰电视</p>
 					<span class="jiadian-item4">7777元</span>
+					<div class="jiadian-item-tan">
+							<p class="jiadian-huifu jiadian-huifu2 ">挺好的,很薄啊.来作诗一首</p>
+							<p class="jiadian-huifu jiadian-huifu1">来自 我是刷单的 评价</p>
+
+						</div>
 
 				</li>
 				<li class="jiadian-item">
@@ -556,6 +810,11 @@
 					</a>
 					<p class="jiadian-item3">4.9mm 极超薄高端旗舰电视</p>
 					<span class="jiadian-item4">7777元</span>
+					<div class="jiadian-item-tan">
+							<p class="jiadian-huifu jiadian-huifu2 ">挺好的,很薄啊.来作诗一首</p>
+							<p class="jiadian-huifu jiadian-huifu1">来自 我是刷单的 评价</p>
+
+						</div>
 
 				</li>
 
@@ -566,6 +825,11 @@
 					</a>
 					<p class="jiadian-item3">4.9mm 极超薄高端旗舰电视</p>
 					<span class="jiadian-item4">7777元</span>
+					<div class="jiadian-item-tan">
+							<p class="jiadian-huifu jiadian-huifu2 ">挺好的,很薄啊.来作诗一首</p>
+							<p class="jiadian-huifu jiadian-huifu1">来自 我是刷单的 评价</p>
+
+						</div>
 
 				</li>
 				<li class="jiadian-item">
@@ -575,6 +839,11 @@
 					</a>
 					<p class="jiadian-item3">4.9mm 极超薄高端旗舰电视</p>
 					<span class="jiadian-item4">7777元</span>
+					<div class="jiadian-item-tan">
+							<p class="jiadian-huifu jiadian-huifu2 ">挺好的,很薄啊.来作诗一首</p>
+							<p class="jiadian-huifu jiadian-huifu1">来自 我是刷单的 评价</p>
+
+						</div>
 
 				</li>
 				<li class="jiadian-item">
@@ -587,6 +856,11 @@
 					</a>
 					<p class="jiadian-item3">4.9mm 极超薄高端旗舰电视</p>
 					<span class="jiadian-item4">7777元</span>
+					<div class="jiadian-item-tan">
+							<p class="jiadian-huifu jiadian-huifu2 ">挺好的,很薄啊.来作诗一首</p>
+							<p class="jiadian-huifu jiadian-huifu1">来自 我是刷单的 评价</p>
+
+						</div>
 
 				</li>
 				<li class="jiadian-item">
@@ -596,6 +870,11 @@
 					</a>
 					<p class="jiadian-item3">4.9mm 极超薄高端旗舰电视</p>
 					<span class="jiadian-item4">7777元</span>
+					<div class="jiadian-item-tan">
+							<p class="jiadian-huifu jiadian-huifu2 ">挺好的,很薄啊.来作诗一首</p>
+							<p class="jiadian-huifu jiadian-huifu1">来自 我是刷单的 评价</p>
+
+						</div>
 
 				</li>
 				<li class="jiadian-item">
@@ -605,6 +884,11 @@
 					</a>
 					<p class="jiadian-item3">4.9mm 极超薄高端旗舰电视</p>
 					<span class="jiadian-item4">7777元</span>
+					<div class="jiadian-item-tan">
+							<p class="jiadian-huifu jiadian-huifu2 ">挺好的,很薄啊.来作诗一首</p>
+							<p class="jiadian-huifu jiadian-huifu1">来自 我是刷单的 评价</p>
+
+						</div>
 
 				</li>
 				
@@ -663,6 +947,11 @@
 					</a>
 					<p class="jiadian-item3">4.9mm 极超薄高端旗舰电视</p>
 					<span class="jiadian-item4">7777元</span>
+					<div class="jiadian-item-tan">
+							<p class="jiadian-huifu jiadian-huifu2 ">挺好的,很薄啊.来作诗一首</p>
+							<p class="jiadian-huifu jiadian-huifu1">来自 我是刷单的 评价</p>
+
+						</div>
 
 				</li>
 				<li class="jiadian-item">
@@ -672,6 +961,11 @@
 					</a>
 					<p class="jiadian-item3">4.9mm 极超薄高端旗舰电视</p>
 					<span class="jiadian-item4">7777元</span>
+					<div class="jiadian-item-tan">
+							<p class="jiadian-huifu jiadian-huifu2 ">挺好的,很薄啊.来作诗一首</p>
+							<p class="jiadian-huifu jiadian-huifu1">来自 我是刷单的 评价</p>
+
+						</div>
 
 				</li>
 
@@ -682,6 +976,11 @@
 					</a>
 					<p class="jiadian-item3">4.9mm 极超薄高端旗舰电视</p>
 					<span class="jiadian-item4">7777元</span>
+					<div class="jiadian-item-tan">
+							<p class="jiadian-huifu jiadian-huifu2 ">挺好的,很薄啊.来作诗一首</p>
+							<p class="jiadian-huifu jiadian-huifu1">来自 我是刷单的 评价</p>
+
+						</div>
 
 				</li>
 				<li class="jiadian-item">
@@ -691,6 +990,11 @@
 					</a>
 					<p class="jiadian-item3">4.9mm 极超薄高端旗舰电视</p>
 					<span class="jiadian-item4">7777元</span>
+					<div class="jiadian-item-tan">
+							<p class="jiadian-huifu jiadian-huifu2 ">挺好的,很薄啊.来作诗一首</p>
+							<p class="jiadian-huifu jiadian-huifu1">来自 我是刷单的 评价</p>
+
+						</div>
 
 				</li>
 				<li class="jiadian-item">
@@ -703,6 +1007,11 @@
 					</a>
 					<p class="jiadian-item3">4.9mm 极超薄高端旗舰电视</p>
 					<span class="jiadian-item4">7777元</span>
+					<div class="jiadian-item-tan">
+							<p class="jiadian-huifu jiadian-huifu2 ">挺好的,很薄啊.来作诗一首</p>
+							<p class="jiadian-huifu jiadian-huifu1">来自 我是刷单的 评价</p>
+
+						</div>
 
 				</li>
 				<li class="jiadian-item">
@@ -712,6 +1021,11 @@
 					</a>
 					<p class="jiadian-item3">4.9mm 极超薄高端旗舰电视</p>
 					<span class="jiadian-item4">7777元</span>
+					<div class="jiadian-item-tan">
+							<p class="jiadian-huifu jiadian-huifu2 ">挺好的,很薄啊.来作诗一首</p>
+							<p class="jiadian-huifu jiadian-huifu1">来自 我是刷单的 评价</p>
+
+						</div>
 
 				</li>
 				<li class="jiadian-item">
@@ -721,6 +1035,11 @@
 					</a>
 					<p class="jiadian-item3">4.9mm 极超薄高端旗舰电视</p>
 					<span class="jiadian-item4">7777元</span>
+					<div class="jiadian-item-tan">
+							<p class="jiadian-huifu jiadian-huifu2 ">挺好的,很薄啊.来作诗一首</p>
+							<p class="jiadian-huifu jiadian-huifu1">来自 我是刷单的 评价</p>
+
+						</div>
 
 				</li>
 				
@@ -914,67 +1233,173 @@
 				<h1 class="neirong-title">内容</h1>
 			</div>
 			<div class="neirong-bottom">
-				<div class="neirong-item">
-					<h2 class="neirong-wenzi">图书</h2>
-					<a href="" class="neirong-mingzi">哈利·波特与被诅咒的孩子</a>
-					<div class="neirong-kuang">
-						<a href="" class="neirong-mingzi1">"哈利·波特"第八个故事中文版震撼来袭!特别彩排版剧本</a>
+				<div class="neirong-item swiper-container" id="swiper2">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<h2 class="neirong-wenzi">图书1</h2>
+							<a href="" class="neirong-mingzi">哈利·波特与被诅咒的孩子</a>
+							<div class="neirong-kuang">
+								<a href="" class="neirong-mingzi1">"哈利·波特"第八个故事中文版震撼来袭!特别彩排版剧本</a>
+							</div>
+							<a href="" class="neirong-mingzi2">29.37元</a>
+							<div class="neirong-img"><img src="img/neirong1.png" alt=""></div>
+						</div>
+						<div class="swiper-slide">
+							<h2 class="neirong-wenzi">图书2</h2>
+							
+							<a href="" class="neirong-mingzi">哈利·波特与被诅咒的孩子</a>
+							<div class="neirong-kuang">
+								<a href="" class="neirong-mingzi1">"哈利·波特"第八个故事中文版震撼来袭!特别彩排版剧本</a>
+							</div>
+							<a href="" class="neirong-mingzi2">29.37元</a>
+							<div class="neirong-img"><img src="img/neirong2.png" alt=""></div>
+						</div>
+						<div class="swiper-slide">
+							<h2 class="neirong-wenzi">图书3</h2>
+					
+							<a href="" class="neirong-mingzi">哈利·波特与被诅咒的孩子</a>
+							<div class="neirong-kuang">
+								<a href="" class="neirong-mingzi1">"哈利·波特"第八个故事中文版震撼来袭!特别彩排版剧本</a>
+							</div>
+							<a href="" class="neirong-mingzi2">29.37元</a>
+							<div class="neirong-img"><img src="img/neirong3.png" alt=""></div>
+						</div>
 					</div>
-					<a href="" class="neirong-mingzi2">29.37元</a>
-					<div class="neirong-img"><img src="img/neirong1.png" alt=""></div>
-					<div class="neirong-dian">
-						<span class="lunbodian dian1">○</span>
-						<span class="lunbodian dian2">●</span>
-						<span class="lunbodian dian2">●</span>
-						
+					<div class="neirong-jiantou1 iconfont icon-zuoyoujiantou swiper-button-prev">
 					</div>
-				</div>
-
-				<div class="neirong-item neirong-item2 neirong-item3">
-					<h2 class="neirong-wenzi">图书</h2>
-					<a href="" class="neirong-mingzi">哈利·波特与被诅咒的孩子</a>
-					<div class="neirong-kuang">
-						<a href="" class="neirong-mingzi1">"哈利·波特"第八个故事中文版震撼来袭!特别彩排版剧本</a>
+					
+					<div class="neirong-jiantou iconfont icon-zuoyoujiantou2 swiper-button-next ">
 					</div>
-					<a href="" class="neirong-mingzi2">29.37元</a>
-					<div class="neirong-img"><img src="img/neirong2.png" alt=""></div>
-					<div class="neirong-dian">
-						<span class="lunbodian dian1">○</span>
-						<span class="lunbodian dian2">●</span>
-						<span class="lunbodian dian2">●</span>
-						
-					</div>
-				</div>
-
-				<div class="neirong-item neirong-item2 neirong-item4">
-					<h2 class="neirong-wenzi">图书</h2>
-					<a href="" class="neirong-mingzi">哈利·波特与被诅咒的孩子</a>
-					<div class="neirong-kuang">
-						<a href="" class="neirong-mingzi1">"哈利·波特"第八个故事中文版震撼来袭!特别彩排版剧本</a>
-					</div>
-					<a href="" class="neirong-mingzi2">29.37元</a>
-					<div class="neirong-img"><img src="img/neirong3.png" alt=""></div>
-					<div class="neirong-dian">
-						<span class="lunbodian dian1">○</span>
-						<span class="lunbodian dian2">●</span>
-						<span class="lunbodian dian2">●</span>
-						
+					<div class="neirong-dian swiper-pagination">
+					<div class="yuan yuan1"></div>
 					</div>
 				</div>
 
-				<div class="neirong-item neirong-item2 neirong-item5">
-					<h2 class="neirong-wenzi">图书</h2>
-					<a href="" class="neirong-mingzi">哈利·波特与被诅咒的孩子</a>
-					<div class="neirong-kuang">
-						<a href="" class="neirong-mingzi1">"哈利·波特"第八个故事中文版震撼来袭!特别彩排版剧本</a>
+				
+				<div class="neirong-item neirong-item2 neirong-item3 swiper-container" id="swiper3">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<h2 class="neirong-wenzi">图书1</h2>
+							<a href="" class="neirong-mingzi">哈利·波特与被诅咒的孩子</a>
+							<div class="neirong-kuang">
+								<a href="" class="neirong-mingzi1">"哈利·波特"第八个故事中文版震撼来袭!特别彩排版剧本</a>
+							</div>
+							<a href="" class="neirong-mingzi2">29.37元</a>
+							<div class="neirong-img"><img src="img/neirong2.png" alt=""></div>
+						</div>
+						<div class="swiper-slide">
+							<h2 class="neirong-wenzi">图书2</h2>
+							
+							<a href="" class="neirong-mingzi">哈利·波特与被诅咒的孩子</a>
+							<div class="neirong-kuang">
+								<a href="" class="neirong-mingzi1">"哈利·波特"第八个故事中文版震撼来袭!特别彩排版剧本</a>
+							</div>
+							<a href="" class="neirong-mingzi2">29.37元</a>
+							<div class="neirong-img"><img src="img/neirong3.png" alt=""></div>
+						</div>
+						<div class="swiper-slide">
+							<h2 class="neirong-wenzi">图书3</h2>
+					
+							<a href="" class="neirong-mingzi">哈利·波特与被诅咒的孩子</a>
+							<div class="neirong-kuang">
+								<a href="" class="neirong-mingzi1">"哈利·波特"第八个故事中文版震撼来袭!特别彩排版剧本</a>
+							</div>
+							<a href="" class="neirong-mingzi2">29.37元</a>
+							<div class="neirong-img"><img src="img/neirong4.png" alt=""></div>
+						</div>
 					</div>
-					<a href="" class="neirong-mingzi2">29.37元</a>
-					<div class="neirong-img"><img src="img/neirong4.png" alt=""></div>
-					<div class="neirong-dian">
-						<span class="lunbodian dian1">○</span>
-						<span class="lunbodian dian2">●</span>
-						<span class="lunbodian dian2">●</span>
-						
+					<div class="neirong-jiantou1 iconfont icon-zuoyoujiantou swiper-button-prev">
+					</div>
+					
+					<div class="neirong-jiantou iconfont icon-zuoyoujiantou2 swiper-button-next ">
+					</div>
+					<div class="neirong-dian swiper-pagination">
+					<div class="yuan yuan1"></div>
+					</div>
+				</div>
+
+				<div class="neirong-item neirong-item2 neirong-item4 swiper-container" id="swiper4">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<h2 class="neirong-wenzi">图书1</h2>
+							<a href="" class="neirong-mingzi">哈利·波特与被诅咒的孩子</a>
+							<div class="neirong-kuang">
+								<a href="" class="neirong-mingzi1">"哈利·波特"第八个故事中文版震撼来袭!特别彩排版剧本</a>
+							</div>
+							<a href="" class="neirong-mingzi2">29.37元</a>
+							<div class="neirong-img"><img src="img/neirong3.png" alt=""></div>
+						</div>
+						<div class="swiper-slide">
+							<h2 class="neirong-wenzi">图书2</h2>
+							
+							<a href="" class="neirong-mingzi">哈利·波特与被诅咒的孩子</a>
+							<div class="neirong-kuang">
+								<a href="" class="neirong-mingzi1">"哈利·波特"第八个故事中文版震撼来袭!特别彩排版剧本</a>
+							</div>
+							<a href="" class="neirong-mingzi2">29.37元</a>
+							<div class="neirong-img"><img src="img/neirong4.png" alt=""></div>
+						</div>
+						<div class="swiper-slide">
+							<h2 class="neirong-wenzi">图书3</h2>
+					
+							<a href="" class="neirong-mingzi">哈利·波特与被诅咒的孩子</a>
+							<div class="neirong-kuang">
+								<a href="" class="neirong-mingzi1">"哈利·波特"第八个故事中文版震撼来袭!特别彩排版剧本</a>
+							</div>
+							<a href="" class="neirong-mingzi2">29.37元</a>
+							<div class="neirong-img"><img src="img/neirong1.png" alt=""></div>
+						</div>
+					</div>
+					<div class="neirong-jiantou1 iconfont icon-zuoyoujiantou swiper-button-prev">
+					</div>
+					
+					<div class="neirong-jiantou iconfont icon-zuoyoujiantou2 swiper-button-next ">
+					</div>
+					<div class="neirong-dian swiper-pagination">
+					<div class="yuan yuan1"></div>
+					</div>
+				</div>
+
+				<div class="neirong-item neirong-item2 neirong-item5 swiper-container" id="swiper5">
+					
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<h2 class="neirong-wenzi">图书1</h2>
+							<a href="" class="neirong-mingzi">哈利·波特与被诅咒的孩子</a>
+							<div class="neirong-kuang">
+								<a href="" class="neirong-mingzi1">"哈利·波特"第八个故事中文版震撼来袭!特别彩排版剧本</a>
+							</div>
+							<a href="" class="neirong-mingzi2">29.37元</a>
+							<div class="neirong-img"><img src="img/neirong4.png" alt=""></div>
+						</div>
+						<div class="swiper-slide">
+							<h2 class="neirong-wenzi">图书2</h2>
+							
+							<a href="" class="neirong-mingzi">哈利·波特与被诅咒的孩子</a>
+							<div class="neirong-kuang">
+								<a href="" class="neirong-mingzi1">"哈利·波特"第八个故事中文版震撼来袭!特别彩排版剧本</a>
+							</div>
+							<a href="" class="neirong-mingzi2">29.37元</a>
+							<div class="neirong-img"><img src="img/neirong1.png" alt=""></div>
+						</div>
+						<div class="swiper-slide">
+							<h2 class="neirong-wenzi">图书3</h2>
+					
+							<a href="" class="neirong-mingzi">哈利·波特与被诅咒的孩子</a>
+							<div class="neirong-kuang">
+								<a href="" class="neirong-mingzi1">"哈利·波特"第八个故事中文版震撼来袭!特别彩排版剧本</a>
+							</div>
+							<a href="" class="neirong-mingzi2">29.37元</a>
+							<div class="neirong-img"><img src="img/neirong2.png" alt=""></div>
+						</div>
+					</div>
+					<div class="neirong-jiantou1 iconfont icon-zuoyoujiantou swiper-button-prev">
+					</div>
+					
+					<div class="neirong-jiantou iconfont icon-zuoyoujiantou2 swiper-button-next ">
+					</div>
+					<div class="neirong-dian swiper-pagination">
+					<div class="yuan yuan1"></div>
 					</div>
 				</div>
 				
@@ -995,13 +1420,9 @@
 				
 				<div class="shipin-item">
 					<div class="shipin-img">
-					<img src="img/shipin1.jpg" alt="">
-					
-					<div class="shipin-icon">
-						<a href="">
-							<span class="iconfont icon-icon3 shipin-bofang"></span>
-						</a>
-					</div>
+						<img src="img/shipin1.jpg" alt="">
+						
+						<a href="" class="iconfont icon-shipinbofang shipin-bofang"></a>
 
 					</div>
 					
@@ -1010,7 +1431,50 @@
 					<h3 class="shipin-miaoshu">一场关于小米MIX 2 极致工艺的巅峰对话</h3>
 					
 				</div>
+				
+				<div class="shipin-item shipin-item1">
+					<div class="shipin-img">
+						<img src="img/shipin2.jpg" alt="">
+						
+						<a href="" class="iconfont icon-shipinbofang shipin-bofang"></a>
 
+					</div>
+					
+					<a href="" title="点击播放视频" class="shipin-mingzi">雷军与斯塔克打造全面屏2.0</a>
+					
+					<h3 class="shipin-miaoshu">一场关于小米MIX 2 极致工艺的巅峰对话</h3>
+					
+				</div>
+				
+				<div class="shipin-item shipin-item1">
+					<div class="shipin-img">
+						<img src="img/shipin3.jpg" alt="">
+						
+						<a href="" class="iconfont icon-shipinbofang shipin-bofang"></a>
+
+					</div>
+					
+					<a href="" title="点击播放视频" class="shipin-mingzi">雷军与斯塔克打造全面屏2.0</a>
+					
+					<h3 class="shipin-miaoshu">一场关于小米MIX 2 极致工艺的巅峰对话</h3>
+					
+				</div>
+				
+				<div class="shipin-item shipin-item1">
+					<div class="shipin-img">
+						<img src="img/shipin4.jpg" alt="">
+						
+						<a href="" class="iconfont icon-shipinbofang shipin-bofang"></a>
+
+					</div>
+					
+					<a href="" title="点击播放视频" class="shipin-mingzi">雷军与斯塔克打造全面屏2.0</a>
+					
+					<h3 class="shipin-miaoshu">一场关于小米MIX 2 极致工艺的巅峰对话</h3>
+					
+				</div>
+				
+				
 			</div>
 
 		</div>
@@ -1022,7 +1486,82 @@
 
 	<!-- 分类模块结束 -->
 	
-	
-
 </body>
 </html>
+<script src="js/jquery.js"></script>
+<script src="js/swiper.min.js"></script>
+<script>        
+	var swiper1 = new Swiper ('#swiper1', {
+	    loop: true,
+	    autoplay: true,
+	    effect : 'fade',
+	    
+	    // 如果需要分页器
+	    pagination: {
+	      el: '.swiper-pagination',
+	    },
+	    
+	    // 如果需要前进后退按钮
+	    navigation: {
+	      nextEl: '.swiper-button-next',
+	      prevEl: '.swiper-button-prev',
+	    },
+  })
+	var swiper2 = new Swiper ('#swiper2', {
+	    loop: true,
+	    autoplay: true,
+	     // 如果需要分页器
+	    pagination: {
+	      el: '.swiper-pagination',
+	    },
+	    
+	    // 如果需要前进后退按钮
+	    navigation: {
+	      nextEl: '.swiper-button-next',
+	      prevEl: '.swiper-button-prev',
+	    },
+  })
+	var swiper3 = new Swiper ('#swiper3', {
+	    loop: true,
+	    autoplay: true,
+	     // 如果需要分页器
+	    pagination: {
+	      el: '.swiper-pagination',
+	    },
+	    
+	    // 如果需要前进后退按钮
+	    navigation: {
+	      nextEl: '.swiper-button-next',
+	      prevEl: '.swiper-button-prev',
+	    },
+  })
+var swiper4 = new Swiper ('#swiper4', {
+	    loop: true,
+	    autoplay: true,
+	     // 如果需要分页器
+	    pagination: {
+	      el: '.swiper-pagination',
+	    },
+	    
+	    // 如果需要前进后退按钮
+	    navigation: {
+	      nextEl: '.swiper-button-next',
+	      prevEl: '.swiper-button-prev',
+	    },
+  })
+var swiper5 = new Swiper ('#swiper5', {
+	    loop: true,
+	    autoplay: true,
+	     // 如果需要分页器
+	    pagination: {
+	      el: '.swiper-pagination',
+	    },
+	    
+	    // 如果需要前进后退按钮
+	    navigation: {
+	      nextEl: '.swiper-button-next',
+	      prevEl: '.swiper-button-prev',
+	    },
+  })
+
+  </script>
